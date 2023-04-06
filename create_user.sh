@@ -20,7 +20,7 @@ password=$(openssl rand -base64 12)
 sudo useradd -m $username
 echo "$username:$password" | sudo chpasswd
 
-# Display the host machine details
+# Display the host machine details:
 echo "Host Machine Details:"
 echo "Hostname: $(hostname)"
 echo "Kernel Version: $(uname -r)"
