@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Check if user has root access
+if [ "$EUID" -ne 0 ]; then
+    echo "Please run as sudo/root"
+    exit
+fi
+
+# Your commands here
+echo "Root access granted!"
+
 # Get the user's name
 echo "Enter the username to create: "
 read username
