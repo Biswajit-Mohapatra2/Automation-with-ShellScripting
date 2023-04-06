@@ -9,4 +9,4 @@ Automate User Creation using Shell Scripting
 - Upon successful execution of script, Display the following output:
   - username: (username)
   - password: (Auto-generated-password)
-  - host: (Your-Host-Machine-Name)
+  - host: (Your-Host-Machine-Details)
